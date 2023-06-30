@@ -1,0 +1,15 @@
+{
+	"Name" : "HotHotHot",
+    "Description": "Plays HotHotHot sound when getting killed by Fire",
+	"Version": "1.0.0",
+	"Authors": [
+        "FromWau"
+    ],
+    "LoadPriority": 1,
+    "Scripts": [
+        {
+            "Path": "",
+            "RunOn": "CLIENT",
+        }
+    ]
+}
