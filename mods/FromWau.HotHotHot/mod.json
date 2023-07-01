@@ -5,11 +5,8 @@
 	"Authors": [
         "FromWau"
     ],
-    "LoadPriority": 1,
-    "Scripts": [
-        {
-            "Path": "",
-            "RunOn": "CLIENT",
-        }
-    ]
+    "LoadPriority": 2,
+	"Dependencies": {
+		"HAS_KILL_CALLBACK": "S2.ClientKillCallback",
+	}
 }
