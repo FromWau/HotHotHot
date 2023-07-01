@@ -1,6 +1,6 @@
 {
   "name": "HotHotHot",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "description": "Plays the HotHotHot sound when getting killed by fire",
   "website_url":  "https://github.com/FromWau/HotHotHot",
   "dependencies": [
