@@ -3,5 +3,7 @@
   "version_number": "1.0.0",
   "description": "Plays the HotHotHot sound when getting killed by fire",
   "website_url":  "https://github.com/FromWau/HotHotHot",
-  "dependencies": []
+  "dependencies": [
+    "HAS_KILL_CALLBACK": "S2.ClientKillCallback",
+  ]
 }
