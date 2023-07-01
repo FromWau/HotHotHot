@@ -4,6 +4,6 @@
   "description": "Plays the HotHotHot sound when getting killed by fire",
   "website_url":  "https://github.com/FromWau/HotHotHot",
   "dependencies": [
-    "HAS_KILL_CALLBACK": "S2.ClientKillCallback",
-  ]
+		"S2Mods-ClientKillCallback-2.0.1"
+	]
 }
