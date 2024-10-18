@@ -1,12 +1,19 @@
 {
-	"Name" : "HotHotHot",
+    "Name": "HotHotHot",
     "Description": "Plays HotHotHot sound when getting killed by Fire",
-	"Version": "1.0.1",
-	"Authors": [
+    "LoadPriority": 2,
+    "RequiredOnClient": false,
+    "Version": "1.0.2",
+    "Authors": [
         "FromWau"
     ],
-    "LoadPriority": 2,
-	"Dependencies": {
-		"HAS_KILL_CALLBACK": "S2.ClientKillCallback",
-	}
+    "Scripts": [
+        {
+            "Path": "mp_hothothot.nut",
+            "RunOn": "CLIENT",
+            "ClientCallback": {
+                "After": "HotHotHotInit"
+            }
+        }
+    ]
 }

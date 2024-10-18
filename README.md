@@ -1,7 +1,16 @@
-# HotHotHot
-Plays HotHotHot sound when getting killed by Fire
+Plays HotHotHot sound (South Park) when getting killed by Fire
 
-## Important: This mod does not play well along with the halo announcer!!
-This mod overrides the same function which halo announcer uses for the kill streaks.
+# Any Issues? / Not working
+Please open up an [issue](https://github.com/FromWau/HotHotHot/issues/new/) on GitHub if something does not work as expected.
 
-If you want to use this mod on top of halo announcer (almost everything will be broken). Increase the `"LoadPriority": 2`, in the mod.json to higher value as halo announcer e.g.: 5.
+# Changelog
+## 1.0.0
+- Initial Release
+
+## 1.0.1
+- Small README.md fix
+- Fix Dependency
+
+## 1.0.2
+- Correctly uses now version 2.0.1 of [S2ClientKillCallback](https://northstar.thunderstore.io/package/S2Mods/ClientKillCallback/)
+- Should be now compatible with other mods
